@@ -24,11 +24,20 @@ body{
     background-color: #33a;
     box-shadow: 0 2px 20px 0 rgb( 0 0 0 / .75);
 }
+#header::before{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background: url(/images/dragon.png) no-repeat;
+    background-size: 5rem;
+}
 #header p{
     margin: 0;
     font-size: 3rem;
     font-weight: 900;
     color: white;
+    padding-left: 3rem;
 }
 .tag{
     padding-left: .5rem;
